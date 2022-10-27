@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/bg.fw.png) ;
+    background-repeat: no-repeat;
+    margin-top: 18vh;
+    background-size:cover; 
+    background-color: #DCE5FC;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 28px;
+    padding: 3rem 0 1rem 0;
+    font-weight: 900;
+}
+
+.img {
+    border-radius: 15px 15px 0 0;
+    width: 450px;
+}
+
+.texts {
+    background-color:white;
+    width: 450px;
+    height: 450px;
+    border-radius: 0 0 15px 15px;
+    
+}
+
+.text {
+    padding: 0 0 2em 0;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.plans {
+    display: flex;
+    background-color: #f1f2fb;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin: 0 90px 0 90px;
+    padding: 1em;
+    border-radius: 10px;
+    background-image: url("./images/icon-music.svg");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 18px;
+}
+
+.value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    padding: 0.5em 0 0.5em 0;
+    position: relative;
+    right: 15px;
+    }
+
+.value a {
+    position: relative;
+    right: -70px;
+}
+
+.estilo {
+    position: relative;
+    font-weight: 700;
+    right: -30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 90px 0 90px;
+    padding: 2em 0 0 0;
+}
+
+.button {
+    background-color: blue ;
+    border: none;
+    color: white;
+    padding: 1em;
+    margin: 0 0 2em 0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #5656f8;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #04049b;
+}
+
+.button-cancel {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.button-cancel:hover {
+    color: #5656f8;
+        
+}
+
+.attribution {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 0.8em;
+    letter-spacing: 0.2em;
+}
+
+.attribution a {
+    color: #5656f8;
+    text-decoration: none;
+}
+.attribution:visited {
+    color: #5656f8;
+}
+
+@media screen and (max-width:450px) {
+    .container {
+        width: 500px;
+    }
+    .attribution {
+       display:block;
+       align-items: center;
+       position: relative;
+       right: -50px;
+    }
+
+}
